@@ -2,10 +2,15 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "composite": true,
-    "allowJs": true,
     "declaration": true,
+
     "emitDeclarationOnly": true,
-    "esModuleInterop": true
+    "declarationDir": "./types",
+
+    "allowJs": true,
+    "esModuleInterop": true,
+
+    "declarationMap": true
   },
   "include": ["**/*.js"]
 }
