@@ -25,3 +25,4 @@ export const useLanguage = () => {
 };
 
 // TODO: add memoize for translation
+//  text component

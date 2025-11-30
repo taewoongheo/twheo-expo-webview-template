@@ -2,23 +2,31 @@
   "name": "@twheo/tailwind-design-tokens",
   "private": true,
   "type": "module",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "types": "types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./types/index.d.ts",
       "require": "./index.js",
       "import": "./index.js",
       "default": "./index.js"
     },
     "./colors": {
+      "types": "./types/colors.d.ts",
       "require": "./colors.js",
       "import": "./colors.js",
       "default": "./colors.js"
     },
     "./spacing": {
+      "types": "./types/spacing.d.ts",
       "require": "./spacing.js",
       "import": "./spacing.js",
       "default": "./spacing.js"
+    },
+    "./typography": {
+      "types": "./types/typography.d.ts",
+      "require": "./typography.js",
+      "import": "./typography.js",
+      "default": "./typography.js"
     }
   }
 }

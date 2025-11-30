@@ -17,6 +17,7 @@ export default function RootLayout() {
           <Stack.Screen name='button' />
           <Stack.Screen name='image' />
           <Stack.Screen name='form' />
+          <Stack.Screen name='text' />
         </Stack>
       </GestureHandlerRootView>
     </KeyboardAvoidingView>

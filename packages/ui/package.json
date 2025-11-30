@@ -11,7 +11,8 @@
     }
   },
   "dependencies": {
-    "@twheo/tailwind-design-tokens": "workspace:*"
+    "@twheo/tailwind-design-tokens": "workspace:*",
+    "i18next": "^25.6.0"
   },
   "peerDependencies": {
     "nativewind": "^4.2.1",

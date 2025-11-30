@@ -94,6 +94,15 @@ function Index() {
         fullWidth={false}
         disabled={false}
       />
+      <Button
+        onPress={() => router.push('/text')}
+        text='Go to Text'
+        isLoading={false}
+        color='link'
+        size='default'
+        fullWidth={false}
+        disabled={false}
+      />
     </View>
   );
 }
