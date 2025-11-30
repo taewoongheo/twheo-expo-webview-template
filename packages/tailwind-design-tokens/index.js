@@ -8,6 +8,7 @@ const config = {
     extend: {
       colors,
       spacing,
+      fontSize: typography,
     },
   },
 };

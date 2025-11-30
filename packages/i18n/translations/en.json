@@ -1,4 +1,6 @@
 {
   "hello": "Hello",
-  "title": "This is a title"
+  "title": "This is a title",
+  "body": "This is a body",
+  "label": "This is a label"
 }

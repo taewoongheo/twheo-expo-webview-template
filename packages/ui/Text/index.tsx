@@ -4,8 +4,6 @@ import type { TextProps as NTextProps } from 'react-native';
 import { Text as NText } from 'react-native';
 import { twMerge } from 'tailwind-merge';
 
-// TODO: add typography tokens
-
 interface TextProps extends NTextProps {
   className?: string;
   tx?: string;
