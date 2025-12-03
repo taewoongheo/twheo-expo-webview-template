@@ -1,0 +1,13 @@
+import { Stack } from 'expo-router';
+
+export default function PageLayout() {
+  return (
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name='button' />
+      <Stack.Screen name='image' />
+      <Stack.Screen name='form' />
+      <Stack.Screen name='text' />
+      <Stack.Screen name='modal' />
+    </Stack>
+  );
+}

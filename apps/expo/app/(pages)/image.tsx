@@ -1,4 +1,4 @@
-import { Image, preloadImages } from '@src/components/ui';
+import { Image, Page, preloadImages } from '@src/components';
 import { useEffect, useState } from 'react';
 import { Button, Text, View } from 'react-native';
 
@@ -27,7 +27,7 @@ export default function Index() {
   };
 
   return (
-    <View className='flex-1 items-center justify-center gap-4 bg-blue-100 p-5 dark:bg-blue-900'>
+    <Page>
       <Text className='text-lg font-bold'>
         Image {currentIndex + 1} / {imageUrls.length}
       </Text>
@@ -47,6 +47,6 @@ export default function Index() {
         <Button title='Previous' onPress={handlePrev} />
         <Button title='Next' onPress={handleNext} />
       </View>
-    </View>
+    </Page>
   );
 }

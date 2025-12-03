@@ -1,5 +1,5 @@
 import { zodResolver } from '@hookform/resolvers/zod';
-import { Button } from '@src/components/ui';
+import { Button, Page } from '@src/components';
 import ControlledInput from '@src/components/ui/input';
 import { useForm } from 'react-hook-form';
 import { Text, View } from 'react-native';
@@ -36,7 +36,7 @@ export default function Form() {
   };
 
   return (
-    <View className='flex-1 flex-col items-center gap-6 bg-blue-100 px-4 py-6 dark:bg-blue-900'>
+    <Page>
       <Text className='text-2xl font-bold'>Form</Text>
       <View className='w-full gap-2'>
         <ControlledInput control={control} name='name' label='Name' placeholder='Enter your name' />
@@ -62,6 +62,6 @@ export default function Form() {
         fullWidth={true}
         disabled={false}
       />
-    </View>
+    </Page>
   );
 }

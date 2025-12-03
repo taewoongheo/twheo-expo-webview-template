@@ -6,7 +6,7 @@ import {
   BottomSheetModal,
   BottomSheetView,
 } from '@gorhom/bottom-sheet';
-import { Button } from '@src/components/ui';
+import { Button } from '@src/components';
 import { useCallback, useImperativeHandle, useMemo, useRef } from 'react';
 import { Keyboard } from 'react-native';
 
@@ -51,7 +51,7 @@ export default function Modal({
       {..._detachedProps}
       {...props}
     >
-      <BottomSheetView className='flex-1 items-center justify-center gap-4 bg-blue-100 p-5 pb-12 dark:bg-blue-500'>
+      <BottomSheetView className='flex-1 items-center justify-center gap-4 p-5 pb-12'>
         {children}
         <Button color='primary' size='default' text='Close Modal' onPress={modal.dismiss} />
       </BottomSheetView>

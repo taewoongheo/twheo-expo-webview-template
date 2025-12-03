@@ -1,9 +1,9 @@
+import { Page } from '@src/components';
 import { Text } from '@twheo/ui';
-import { View } from 'react-native';
 
 export default function Index() {
   return (
-    <View className='flex-1 items-center justify-center gap-4 bg-blue-100 p-5 dark:bg-blue-900'>
+    <Page>
       <Text tx='title' className='text-title-large'>
         Title Large (24px, bold)
       </Text>
@@ -33,6 +33,6 @@ export default function Index() {
       <Text tx='label' className='text-label-small'>
         Label Small (12px, medium)
       </Text>
-    </View>
+    </Page>
   );
 }
