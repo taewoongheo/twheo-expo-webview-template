@@ -103,6 +103,15 @@ function Index() {
         fullWidth={false}
         disabled={false}
       />
+      <Button
+        onPress={() => router.push('/modal')}
+        text='Go to Modal'
+        isLoading={false}
+        color='link'
+        size='default'
+        fullWidth={false}
+        disabled={false}
+      />
     </View>
   );
 }
